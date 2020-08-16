@@ -1,0 +1,14 @@
+# Instuction
+# type "pip install pyautogui" in the pycharm terminal
+
+# ______Code______
+
+import pyautogui
+import time
+time.sleep(5)
+f = open("text", 'r')
+for word in f:
+    pyautogui.typewrite(word)
+    pyautogui.press("enter")
+   
+# ______End Of Code______   
