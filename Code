@@ -6,9 +6,61 @@
 import pyautogui
 import time
 time.sleep(5)
-f = open("text", 'r')
+
+
+f = open("Initiate", 'r')
 for word in f:
     pyautogui.typewrite(word)
     pyautogui.press("enter")
-   
+    time.sleep(1)
+
+
+f = open("5", 'r')
+for word in f:
+    pyautogui.typewrite(word)
+    time.sleep(0.5)
+    pyautogui.press("enter")
+    time.sleep(1)
+
+f = open("4", 'r')
+for word in f:
+    pyautogui.typewrite(word)
+    time.sleep(1)
+    pyautogui.press("enter")
+
+
+f = open("3", 'r')
+for word in f:
+    pyautogui.typewrite(word)
+    time.sleep(1)
+    pyautogui.press("enter")
+
+
+f = open("2", 'r')
+for word in f:
+    pyautogui.typewrite(word)
+    time.sleep(1)
+    pyautogui.press("enter")
+
+
+f = open("1", 'r')
+for word in f:
+    pyautogui.typewrite(word)
+    time.sleep(1)
+    pyautogui.press("enter")
+
+
+f = open("Initiated", 'r')
+for word in f:
+    pyautogui.typewrite(word)
+    time.sleep(0.5)
+    pyautogui.press("enter")
+
+
+f = open("Text", 'r')
+for word in f:
+    pyautogui.typewrite(word)
+    time.sleep(0.5)
+    pyautogui.press("enter")
+
 # ______End Of Code______   
